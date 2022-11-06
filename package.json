@@ -1,0 +1,30 @@
+{
+  "name": "uele-app2-react",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [],
+  "dependencies": {
+    "uele": "0.5.1",
+    "usignal": "0.8.9"
+  },
+  "alias": {
+    "react": "/src/lib/react",
+    "react-dom": "/src/lib/react-dom",
+    "$components": "/src/components/",
+    "$apps": "/src/apps/"
+  }
+}
